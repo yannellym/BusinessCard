@@ -1,0 +1,139 @@
+html{
+    background-color: #000000;
+}
+
+.card{
+    width: 550px;
+    height: 868px;
+    top: 960px;
+    left: 73px;
+    align-items: center;
+    margin-left: 25%;
+}
+
+.photo{
+    width:317px;
+    height:317px;
+    top: 44px;
+    left: 116px;
+    border-radius: 10px 10px 0px 0px;
+    position: absolute;
+    margin-left: 25%;
+    box-shadow: 0px 1px 12px rgb(255, 255, 255);
+}
+
+.name{
+    text-align:center;
+}
+
+.name:hover{
+    font-size:25px;
+}
+
+.position{
+    font-size: 14.9px;
+    text-align:center;color: #297FE5;
+}
+
+.email{
+    text-align:center;
+    font-size: 12.24px;
+}
+
+/* Buttons */
+
+.btn--container{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   padding: 5px 13px 0px 11px;
+}
+
+.btn{
+    width: 115px;
+    height: 34px;
+    left: 151px;
+    top: 469px;
+    display: inline-block;
+}                           
+
+.btn:hover{
+    border:rgb(0, 0, 0) solid 2px;
+}
+
+.btn--email{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #D1D5DB;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    display: inline-block;
+}
+.btn--linkedin{
+    background-color: #297FE5;
+    border: 1px solid #D1D5DB;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    color:rgb(255, 255, 255);
+}
+
+.info--icon{
+    top: 20%;
+    left: 10%;
+    height: 15px;
+    width: 17px;
+    margin-right: 5px;
+    vertical-align: text-bottom;
+    display: inline-block;
+}
+
+/* Body */
+
+.body{
+    width: 317px;
+    height: 490px;
+    left: 116px;
+    top: 361px; 
+    position: absolute;
+    background: #F5F5F5;
+    margin-left: 25%;
+    box-shadow: 0px 1px 12px rgb(255, 255, 255);
+}
+
+.body--container{
+    width:260px;
+    height: auto;
+    margin-left: 8%; 
+}
+
+.about>p , .interests>p{
+    font-size: 14px;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #297FE5;
+    left: 116px;
+    top: 560px;
+    bottom: 7.32%;
+    height: 64px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 1px 12px rgb(255, 255, 255);
+}
+
+.foot--icon{
+    width: 25px;
+    height: 25px;
+    top: 779.5px;
+    left: 189px;
+    margin: 8%;
+    border-radius: 5px;
+}
+
+.foot--icon:hover{
+   border-bottom: rgb(0, 0, 0) solid 3px;
+}
+
